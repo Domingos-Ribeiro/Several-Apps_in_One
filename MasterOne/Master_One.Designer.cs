@@ -35,6 +35,7 @@
             this.app1ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.app2ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.app3ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -60,7 +61,7 @@
             // exitToolStripMenuItem
             // 
             this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
-            this.exitToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.exitToolStripMenuItem.Size = new System.Drawing.Size(92, 22);
             this.exitToolStripMenuItem.Text = "Exit";
             this.exitToolStripMenuItem.Click += new System.EventHandler(this.exitToolStripMenuItem_Click);
             // 
@@ -77,29 +78,39 @@
             // app1ToolStripMenuItem
             // 
             this.app1ToolStripMenuItem.Name = "app1ToolStripMenuItem";
-            this.app1ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.app1ToolStripMenuItem.Size = new System.Drawing.Size(102, 22);
             this.app1ToolStripMenuItem.Text = "App1";
             this.app1ToolStripMenuItem.Click += new System.EventHandler(this.app1ToolStripMenuItem_Click);
             // 
             // app2ToolStripMenuItem
             // 
             this.app2ToolStripMenuItem.Name = "app2ToolStripMenuItem";
-            this.app2ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.app2ToolStripMenuItem.Size = new System.Drawing.Size(102, 22);
             this.app2ToolStripMenuItem.Text = "App2";
             this.app2ToolStripMenuItem.Click += new System.EventHandler(this.app2ToolStripMenuItem_Click);
             // 
             // app3ToolStripMenuItem
             // 
             this.app3ToolStripMenuItem.Name = "app3ToolStripMenuItem";
-            this.app3ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.app3ToolStripMenuItem.Size = new System.Drawing.Size(102, 22);
             this.app3ToolStripMenuItem.Text = "App3";
             this.app3ToolStripMenuItem.Click += new System.EventHandler(this.app3ToolStripMenuItem_Click);
+            // 
+            // groupBox1
+            // 
+            this.groupBox1.Location = new System.Drawing.Point(128, 102);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(200, 198);
+            this.groupBox1.TabIndex = 1;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "groupBox1";
             // 
             // Master_One
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Master_One";
@@ -120,6 +131,7 @@
         private System.Windows.Forms.ToolStripMenuItem app1ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem app2ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem app3ToolStripMenuItem;
+        private System.Windows.Forms.GroupBox groupBox1;
     }
 }
 
