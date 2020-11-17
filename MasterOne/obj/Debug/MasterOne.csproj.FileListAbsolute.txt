@@ -11,3 +11,16 @@ A:\Curso de PROGRAMAÇÃO IEFP\Cursos de C#\Game Institute - C# Programming\My A
 A:\Curso de PROGRAMAÇÃO IEFP\Cursos de C#\Game Institute - C# Programming\My Apps\Master-One\MasterOne\obj\Debug\MasterOne.App1.resources
 A:\Curso de PROGRAMAÇÃO IEFP\Cursos de C#\Game Institute - C# Programming\My Apps\Master-One\MasterOne\obj\Debug\MasterOne.App2.resources
 A:\Curso de PROGRAMAÇÃO IEFP\Cursos de C#\Game Institute - C# Programming\My Apps\Master-One\MasterOne\obj\Debug\MasterOne.App3.resources
+M:\CURSOS EM VIDEO\C#\Game Institute - C# Programming\My Apps\MasterOne\bin\Debug\MasterOne.exe.config
+M:\CURSOS EM VIDEO\C#\Game Institute - C# Programming\My Apps\MasterOne\bin\Debug\MasterOne.exe
+M:\CURSOS EM VIDEO\C#\Game Institute - C# Programming\My Apps\MasterOne\bin\Debug\MasterOne.pdb
+M:\CURSOS EM VIDEO\C#\Game Institute - C# Programming\My Apps\MasterOne\obj\Debug\MasterOne.csprojAssemblyReference.cache
+M:\CURSOS EM VIDEO\C#\Game Institute - C# Programming\My Apps\MasterOne\obj\Debug\MasterOne.App1.resources
+M:\CURSOS EM VIDEO\C#\Game Institute - C# Programming\My Apps\MasterOne\obj\Debug\MasterOne.App2.resources
+M:\CURSOS EM VIDEO\C#\Game Institute - C# Programming\My Apps\MasterOne\obj\Debug\MasterOne.App3.resources
+M:\CURSOS EM VIDEO\C#\Game Institute - C# Programming\My Apps\MasterOne\obj\Debug\MasterOne.Master_One.resources
+M:\CURSOS EM VIDEO\C#\Game Institute - C# Programming\My Apps\MasterOne\obj\Debug\MasterOne.Properties.Resources.resources
+M:\CURSOS EM VIDEO\C#\Game Institute - C# Programming\My Apps\MasterOne\obj\Debug\MasterOne.csproj.GenerateResource.cache
+M:\CURSOS EM VIDEO\C#\Game Institute - C# Programming\My Apps\MasterOne\obj\Debug\MasterOne.csproj.CoreCompileInputs.cache
+M:\CURSOS EM VIDEO\C#\Game Institute - C# Programming\My Apps\MasterOne\obj\Debug\MasterOne.exe
+M:\CURSOS EM VIDEO\C#\Game Institute - C# Programming\My Apps\MasterOne\obj\Debug\MasterOne.pdb
