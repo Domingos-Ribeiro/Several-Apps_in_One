@@ -23,5 +23,17 @@ namespace MasterOne
             Master_One master = new Master_One();
             master.ShowDialog();
         }
+
+        private void radioButton1_CheckedChanged(object sender, EventArgs e)
+        {
+            pic_Happy.Visible = true;
+            pic_Sad.Visible = false;
+        }
+
+        private void rdb_Sad_CheckedChanged(object sender, EventArgs e)
+        {
+            pic_Happy.Visible = false;
+            pic_Sad.Visible = true;
+        }
     }
 }

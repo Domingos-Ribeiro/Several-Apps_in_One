@@ -77,8 +77,8 @@
             // app1ToolStripMenuItem
             // 
             this.app1ToolStripMenuItem.Name = "app1ToolStripMenuItem";
-            this.app1ToolStripMenuItem.Size = new System.Drawing.Size(102, 22);
-            this.app1ToolStripMenuItem.Text = "App1";
+            this.app1ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.app1ToolStripMenuItem.Text = "Radio Buttons";
             this.app1ToolStripMenuItem.Click += new System.EventHandler(this.app1ToolStripMenuItem_Click);
             // 
             // app2ToolStripMenuItem
@@ -103,6 +103,7 @@
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Master_One";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
