@@ -35,5 +35,11 @@ namespace MasterOne
             pic_Happy.Visible = false;
             pic_Sad.Visible = true;
         }
+
+        private void rdb_None_CheckedChanged(object sender, EventArgs e)
+        {
+            pic_Happy.Visible = false;
+            pic_Sad.Visible = false;
+        }
     }
 }

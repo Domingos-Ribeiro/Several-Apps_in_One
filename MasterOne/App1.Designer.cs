@@ -34,6 +34,7 @@
             this.rdb_Sad = new System.Windows.Forms.RadioButton();
             this.pic_Sad = new System.Windows.Forms.PictureBox();
             this.pic_Happy = new System.Windows.Forms.PictureBox();
+            this.rdb_None = new System.Windows.Forms.RadioButton();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pic_Sad)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pic_Happy)).BeginInit();
@@ -51,6 +52,7 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.rdb_None);
             this.groupBox1.Controls.Add(this.rdb_Sad);
             this.groupBox1.Controls.Add(this.rdb_Appy);
             this.groupBox1.Location = new System.Drawing.Point(35, 26);
@@ -62,7 +64,7 @@
             // rdb_Appy
             // 
             this.rdb_Appy.AutoSize = true;
-            this.rdb_Appy.Location = new System.Drawing.Point(24, 67);
+            this.rdb_Appy.Location = new System.Drawing.Point(24, 113);
             this.rdb_Appy.Name = "rdb_Appy";
             this.rdb_Appy.Size = new System.Drawing.Size(56, 17);
             this.rdb_Appy.TabIndex = 0;
@@ -74,7 +76,7 @@
             // rdb_Sad
             // 
             this.rdb_Sad.AutoSize = true;
-            this.rdb_Sad.Location = new System.Drawing.Point(24, 154);
+            this.rdb_Sad.Location = new System.Drawing.Point(24, 179);
             this.rdb_Sad.Name = "rdb_Sad";
             this.rdb_Sad.Size = new System.Drawing.Size(44, 17);
             this.rdb_Sad.TabIndex = 1;
@@ -100,6 +102,18 @@
             this.pic_Happy.Size = new System.Drawing.Size(196, 189);
             this.pic_Happy.TabIndex = 2;
             this.pic_Happy.TabStop = false;
+            // 
+            // rdb_None
+            // 
+            this.rdb_None.AutoSize = true;
+            this.rdb_None.Location = new System.Drawing.Point(24, 47);
+            this.rdb_None.Name = "rdb_None";
+            this.rdb_None.Size = new System.Drawing.Size(51, 17);
+            this.rdb_None.TabIndex = 2;
+            this.rdb_None.TabStop = true;
+            this.rdb_None.Text = "None";
+            this.rdb_None.UseVisualStyleBackColor = true;
+            this.rdb_None.CheckedChanged += new System.EventHandler(this.rdb_None_CheckedChanged);
             // 
             // App1
             // 
@@ -131,5 +145,6 @@
         private System.Windows.Forms.RadioButton rdb_Appy;
         private System.Windows.Forms.PictureBox pic_Happy;
         private System.Windows.Forms.PictureBox pic_Sad;
+        private System.Windows.Forms.RadioButton rdb_None;
     }
 }
